@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rp_Customfield_on_CMS_page</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This is a small extension for Magento that allows you to add the custom field in the core functionality.</summary>
+    <description>This is a small extension for Magento that allows you to add the custom field in the core functionality.&#xD;
+&#xD;
+Features:&#xD;
+&#xD;
+- This small extension will use to add the custom field on admin panel under the CMS &gt; Page. &#xD;
+- After installing the extension, it will create the custom field with new fieldset(i.e. new section) under the Page Information tab.&#xD;
+- Compatible with 1.9.x.&#xD;
+&#xD;
+Installation steps:&#xD;
+&#xD;
+- Its very easy to install, just copy app/ folder and paste on your magento root folder.&#xD;
+- If you want to display on frontend at any place then you just have to add the following line where you want to display:&#xD;
+echo $page = Mage::getModel('cms/page')-&gt;load('home','identifier')-&gt;getCustom_newtab_value();&#xD;
+- You are done with installation.&#xD;
+- After you upload the extension files to your magento installation folder, Refresh the cache from Admin &gt; System &gt; Cache Management.&#xD;
+- Logout and login again from Backend to reload.</description>
+    <notes>None</notes>
+    <authors><author><name>Mage Rips</name><user>magerips</user><email>rpmagerips@gmail.com</email></author></authors>
+    <date>2014-12-22</date>
+    <time>17:32:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Rp_Cmsnewtab.xml" hash="af2cdbb65e7e916f0217861dacb2049f"/></dir></target><target name="magelocal"><dir name="Rp"><dir name="Cmsnewtab"><dir name="Model"><file name="Observer.php" hash="77159ede9a98a2c0de83f3ea2c0795d4"/></dir><dir name="etc"><file name="config.xml" hash="8b0db48abc0de72a32c520db5271351f"/></dir><dir name="sql"><dir name="cmsnewtab_setup"><file name="mysql4-install-0.1.0.php" hash="d597325e7f2363cf02bd59f77dfe005f"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
+</package>

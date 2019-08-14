@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Rp_Customfield_on_CMS_page",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "This is a small extension for Magento that allows you to add the custom field in the core functionality.",
+    "authors": [
+    {
+        "name": "Mage Rips",
+        "email": "rpmagerips@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
