@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Rp_Customfield_on_CMS_page",
+    "name": "openmage-module-fostering\/rp_customfield_on_cms_page",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This is a small extension for Magento that allows you to add the custom field in the core functionality.",
     "authors": [
